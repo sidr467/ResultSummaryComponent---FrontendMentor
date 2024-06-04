@@ -558,6 +558,10 @@ video {
   margin: auto;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -604,6 +608,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -857,6 +865,10 @@ video {
   --tw-ring-color: hsl(0 100% 67% / var(--tw-ring-opacity));
 }
 
+.hover\:bg-gradient-to-b:hover {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
 @media (min-width: 768px) {
   .md\:m-auto {
     margin: auto;
@@ -865,6 +877,10 @@ video {
   .md\:my-auto {
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .md\:grid {
+    display: grid;
   }
 
   .md\:max-h-\[950px\] {
