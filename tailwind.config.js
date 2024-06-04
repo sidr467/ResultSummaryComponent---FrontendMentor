@@ -12,7 +12,7 @@ module.exports = {
         BgLightslateBlue: "hsl(252, 100%, 67%)",
         BgLightroyalBlue: "hsl(241, 81%, 54%)",
         CircleVioletBlue: "hsla(256, 72%, 46%, 1)",
-        CirclePersianBlue: "hsla(241, 72%, 46%, 0)",
+        CirclePersianBlue: "hsla(241, 72%, 46%, 1)",
         White: "hsl(0, 0%, 100%)",
         PaleBlue: "hsl(221, 100%, 96%)",
         LightLavender: "hsl(241, 100%, 89%)",
