@@ -27,6 +27,9 @@ module.exports = {
       Fontlight: "500",
       Fontmedium: "700",
       Fontbold :"800"
+    },
+    fontFamily:{
+      FontHanken: ["Hanken Grotesk", "sans-serif"]
     }
   },
   plugins: [],
