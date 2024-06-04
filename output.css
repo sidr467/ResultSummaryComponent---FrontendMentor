@@ -598,6 +598,22 @@ video {
   min-width: 120px;
 }
 
+.max-w-32 {
+  max-width: 8rem;
+}
+
+.max-w-6 {
+  max-width: 1.5rem;
+}
+
+.max-w-64 {
+  max-width: 16rem;
+}
+
+.max-w-40 {
+  max-width: 10rem;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -840,6 +856,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-PaleBlue {
+  --tw-text-opacity: 1;
+  color: hsl(221 100% 96% / var(--tw-text-opacity));
 }
 
 .opacity-30 {
