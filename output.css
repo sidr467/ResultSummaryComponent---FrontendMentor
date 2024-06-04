@@ -554,8 +554,16 @@ video {
   --tw-contain-style:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -564,6 +572,14 @@ video {
 
 .grid {
   display: grid;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .min-h-\[120px\] {
@@ -576,6 +592,14 @@ video {
 
 .min-w-\[120px\] {
   min-width: 120px;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -640,6 +664,21 @@ video {
 .bg-PrimaryLightRed {
   --tw-bg-opacity: 1;
   background-color: hsl(0 100% 67% / var(--tw-bg-opacity));
+}
+
+.bg-PrimaryOrangeyYellow {
+  --tw-bg-opacity: 1;
+  background-color: hsl(39 100% 56% / var(--tw-bg-opacity));
+}
+
+.bg-PrimaryGreenTeal {
+  --tw-bg-opacity: 1;
+  background-color: hsl(166 100% 37% / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-10 {
@@ -816,4 +855,111 @@ video {
 .ring-PrimaryLightRed {
   --tw-ring-opacity: 1;
   --tw-ring-color: hsl(0 100% 67% / var(--tw-ring-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:m-auto {
+    margin: auto;
+  }
+
+  .md\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .md\:max-h-\[950px\] {
+    max-height: 950px;
+  }
+
+  .md\:max-h-\[750px\] {
+    max-height: 750px;
+  }
+
+  .md\:min-h-\[120px\] {
+    min-height: 120px;
+  }
+
+  .md\:min-h-\[180px\] {
+    min-height: 180px;
+  }
+
+  .md\:min-w-\[180px\] {
+    min-width: 180px;
+  }
+
+  .md\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .md\:max-w-\[850px\] {
+    max-width: 850px;
+  }
+
+  .md\:max-w-\[900px\] {
+    max-width: 900px;
+  }
+
+  .md\:max-w-\[90px\] {
+    max-width: 90px;
+  }
+
+  .md\:max-w-\[750px\] {
+    max-width: 750px;
+  }
+
+  .md\:grid-flow-row {
+    grid-auto-flow: row;
+  }
+
+  .md\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:rounded-2xl {
+    border-radius: 1rem;
+  }
+
+  .md\:rounded-3xl {
+    border-radius: 1.5rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
 }
